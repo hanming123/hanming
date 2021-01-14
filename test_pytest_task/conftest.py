@@ -59,3 +59,4 @@ def get_datas_div(request):
 
 # if __name__ == '__main__':
 #     print(add_datas)
+

@@ -58,3 +58,4 @@ class Test_Cala:
 #
 if __name__ == '__main__':
     pytest.main(['test_calc_new.py','-sq'])
+
