@@ -29,3 +29,5 @@ class BasePage:
 
     def find_and_get_text(self,locator):
         return self.find(locator).text
+
+

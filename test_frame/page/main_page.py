@@ -9,3 +9,4 @@ class MainPage(BasePage):  #主页面
         self.find_and_click((By.XPATH,"//*[@resource-id='com.tencent.wework:id/eim']"))  #点击其它企业按钮
         self.find_and_click((By.XPATH,"//*[@text='通讯录']"))
         return AddressListPage(self.driver)  #跳转到通讯录的添加成员页面
+

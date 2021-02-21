@@ -40,3 +40,5 @@ class App(BasePage):
 
     def goto_main(self)->MainPage: #定义进入页面
         return MainPage(self.driver)  #跳转到主页面
+
+
