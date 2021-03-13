@@ -55,3 +55,5 @@ def test_delete_member():
     url = f"https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={token}&userid=1589968"
     r = requests.get(url)
     print(r.json())
+
+

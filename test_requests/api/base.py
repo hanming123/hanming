@@ -14,3 +14,4 @@ class Base:
     def send(self, *args, **kwargs):
         r = self.s.request(*args , **kwargs)
         return r.json()
+

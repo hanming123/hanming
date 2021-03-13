@@ -43,3 +43,5 @@ class Address(Base):
 
         # r = requests.get(url) #未封装Base 的写法
         # return r.json()
+
+
